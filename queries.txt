@@ -1,0 +1,26 @@
+?- parent(mohammed, meshal).
+true.
+
+?- father(mohammed, meshal).
+true.
+
+?- father(mohammed, reenad).
+true.
+
+?- mother(muneera, reenad).
+true.
+
+?- mother(muneera, maha).
+false.
+
+?- sister(noura, meshal).
+true.
+
+?- sister(reenad, noura).
+true.
+
+?- brother(meshal, noura).
+true.
+
+?- brother(meshal, reenad).
+true.
